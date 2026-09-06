@@ -19,11 +19,11 @@
  * ------------------------------------------------------------------------ */
 export const links = {
   // REPLACE with the real LinkedIn profile URL
-  linkedin: 'https://www.linkedin.com/in/REPLACE-WITH-LINKEDIN-USERNAME',
+  linkedin: 'www.linkedin.com/in/ayaan-panjani-88a9b940a',
   // REPLACE if the GitHub username ever changes
   github: 'https://github.com/ayaanpanjani5668',
   // REPLACE with the email address that should be shared with colleges
-  email: 'REPLACE-WITH-EMAIL@example.com',
+  email: 'ayaanpanjani@gmail.com',
 }
 
 /* ---------------------------------------------------------------------------
@@ -33,7 +33,7 @@ export const profile = {
   name: 'Ayaan Panjnai',
   // Small pill shown above the name in the hero
   status: 'High school student · Class of 2027',
-  headline: 'Future Engineer | Robotics & Technology Enthusiast | Student Leader',
+  headline: 'Future Engineer | Electroniocs, Robotics & Technology Enthusiast | Student Leader',
   intro:
     'I am a high school student passionate about robotics, engineering, technology, community service, and using what I learn to solve real-world problems.',
   // Drop your own photo at public/images/ayaan-profile.jpg (keep the same name
@@ -41,7 +41,7 @@ export const profile = {
   photo: '/images/ayaan-profile.jpg',
   photoAlt: 'Portrait of Ayaan Panjnai',
   // Small caption shown under the portrait frame
-  photoCaption: 'Class of 2027 · Robotics & Engineering',
+  photoCaption: 'Class of 2027 · Engineering',
 }
 
 /* ---------------------------------------------------------------------------
