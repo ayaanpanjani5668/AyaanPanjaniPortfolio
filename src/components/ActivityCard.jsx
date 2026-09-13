@@ -19,15 +19,18 @@ export default function ActivityCard({ activity, variant = 'grid' }) {
     image,
     imageAlt,
     icon = 'tools',
+    category,
   } = activity
 
   const timeframe = grades || dates
+  const categoryLabel = category === 'stem' ? 'STEM' : category === 'community' ? 'Community' : null
 
   return (
     <article className={`activity-card activity-card--${variant}`}>
       {image ? (
         <div className="activity-card__media">
           <img src={image} alt={imageAlt || `${title} activity photo`} loading="lazy" decoding="async" />
+          {categoryLabel ? <span className="activity-card__category">{categoryLabel}</span> : null}
         </div>
       ) : null}
 

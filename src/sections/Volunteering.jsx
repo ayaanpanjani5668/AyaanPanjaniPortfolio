@@ -14,14 +14,13 @@ export default function Volunteering() {
         headingId="volunteering-heading"
       />
 
-      <ol className="timeline">
+      <div className="card-grid card-grid--three">
         {volunteering.map((activity, index) => (
-          <Reveal as="li" className="timeline__item" key={activity.title} delay={index * 60}>
-            <span className="timeline__marker" aria-hidden="true" />
-            <ActivityCard activity={activity} variant="timeline" />
+          <Reveal key={activity.title} delay={index * 60}>
+            <ActivityCard activity={activity} />
           </Reveal>
         ))}
-      </ol>
+      </div>
     </Section>
   )
 }

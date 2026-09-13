@@ -278,10 +278,29 @@
   box-shadow: var(--shadow-md);
 }
 
+.activity-card__media {
+  position: relative;
+}
+
 .activity-card__media img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.activity-card__category {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-xs);
 }
 
 .activity-card__body {
@@ -363,59 +382,6 @@
   margin-bottom: 0.2rem;
 }
 
-/* ------------------------------------------------------------- Timeline -- */
-.timeline {
-  position: relative;
-  display: grid;
-  gap: 1.25rem;
-  padding-left: 2.1rem;
-  max-width: 920px;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 8px;
-  top: 6px;
-  bottom: 6px;
-  width: 2px;
-  border-radius: 2px;
-  background: linear-gradient(180deg, var(--accent), rgba(13, 148, 136, 0.35), transparent);
-}
-
-.timeline__item {
-  position: relative;
-}
-
-.timeline__marker {
-  position: absolute;
-  left: -2.1rem;
-  top: 1.5rem;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--surface);
-  border: 3px solid var(--accent);
-  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
-}
-
-.activity-card--timeline .activity-card__body {
-  padding: 1.25rem 1.4rem;
-}
-
-@media (max-width: 520px) {
-  .timeline {
-    padding-left: 1.6rem;
-  }
-
-  .timeline__marker {
-    left: -1.6rem;
-    width: 14px;
-    height: 14px;
-    top: 1.4rem;
-  }
-}
-
 /* ---------------------------------------------------------- Sport cards -- */
 .athletics-section .card-grid {
   max-width: 920px;
@@ -424,8 +390,9 @@
 .sport-card {
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  padding: 1.6rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: linear-gradient(165deg, var(--surface-tint), var(--surface) 60%);
@@ -436,6 +403,19 @@
 .sport-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
+}
+
+.sport-card__media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+.sport-card__body {
+  position: relative;
+  flex: 1;
+  padding: 1.6rem;
 }
 
 .sport-card__watermark {
@@ -523,9 +503,9 @@
 /* ---------------------------------------------------------- Award cards -- */
 .award-card {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
   height: 100%;
-  padding: 1.5rem;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
@@ -537,6 +517,19 @@
   transform: translateY(-4px);
   border-color: var(--border-strong);
   box-shadow: var(--shadow-md);
+}
+
+.award-card__media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+.award-card__row {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
 }
 
 .award-card__icon {

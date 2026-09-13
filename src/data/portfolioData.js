@@ -19,7 +19,7 @@
  * ------------------------------------------------------------------------ */
 export const links = {
   // REPLACE with the real LinkedIn profile URL
-  linkedin: 'www.linkedin.com/in/ayaan-panjani-88a9b940a',
+  linkedin: 'https://www.linkedin.com/in/ayaan-panjani-88a9b940a',
   // REPLACE if the GitHub username ever changes
   github: 'https://github.com/ayaanpanjani5668',
   // REPLACE with the email address that should be shared with colleges
@@ -33,7 +33,7 @@ export const profile = {
   name: 'Ayaan Panjnai',
   // Small pill shown above the name in the hero
   status: 'High school student · Class of 2027',
-  headline: 'Future Engineer | Electroniocs, Robotics & Technology Enthusiast | Student Leader',
+  headline: 'Future Engineer | Electronics, Robotics & Technology Enthusiast | Student Leader',
   intro:
     'I am a high school student passionate about robotics, engineering, technology, community service, and using what I learn to solve real-world problems.',
   // Drop your own photo at public/images/ayaan-profile.jpg (keep the same name
@@ -91,22 +91,19 @@ export const academics = {
   // The four "fact" tiles. Delete a tile if you would rather not publish it
   // (for example, remove the SAT tile until you have a score to share).
   facts: [
-    { icon: 'school', label: 'High School', value: 'REPLACE — High School Name' },
-    { icon: 'calendar', label: 'Graduation Year', value: 'REPLACE — e.g. 2027' },
-    { icon: 'chart', label: 'GPA', value: 'REPLACE — e.g. 4.0 / 4.0' },
-    { icon: 'check', label: 'SAT', value: 'REPLACE — e.g. 1500' },
+    { icon: 'school', label: 'High School', value: 'Canton High School, CT' },
+    { icon: 'calendar', label: 'Graduation Year', value: '2027' },
   ],
   coursework: [
-    'REPLACE — Algebra II / Precalculus',
-    'REPLACE — Physics',
+    'Engineering Electives — Architecture, Vehicle Design, Transportation Systems, Woodworking, Alternative Energy',
+    'Steadily increasing rigor — Precalculus to Honors Calculus and AP Physics',
     'REPLACE — Chemistry',
-    'REPLACE — Computer Science',
-    'REPLACE — Engineering / Design',
   ],
   honors: [
-    'REPLACE — AP Course Name',
-    'REPLACE — Honors Course Name',
-    'REPLACE — Dual Enrollment / Summer Program',
+    'AP Physics',
+    'Calculus Honors',
+    'Biology Honors',
+    'AP Computer Science — Virtual High School (self-directed, not offered at his school)',
   ],
   interests: [
     'Robotics Engineering',
@@ -125,56 +122,98 @@ export const academics = {
  * ------------------------------------------------------------------------ */
 export const leadership = [
   {
-    title: 'Young Scientist Program',
-    role: 'Student Mentor / Volunteer',
-    organization: 'REPLACE — Hosting Organization',
-    grades: 'Grades 9–10',
-    icon: 'flask',
-    description:
-      'Helped younger students explore science and technology through hands-on learning activities.',
-    impact:
-      'REPLACE — e.g. Supported ~20 elementary students across 6 weekend sessions.',
-    skills: ['Mentoring', 'Public Speaking', 'Lesson Planning', 'Patience'],
+    title: 'Neighborhood Robotics Boot Camp',
+    role: 'Instructor',
+    organization: 'Neighborhood Program',
+    grades: 'Grade 12',
+    icon: 'chip',
+    description: 'Designed and taught a beginner robotics camp for neighborhood kids using Arduino and hands-on STEM activities.',
+    impact: '2 hrs/week over 6 weeks.',
+    skills: ['Leadership', 'Teaching'],
+    image: '/images/project-placeholder.jpg',
   },
   {
-    title: 'REPLACE — Club or Team Name',
-    role: 'REPLACE — e.g. Team Lead',
-    organization: 'REPLACE — School or Organization',
-    grades: 'REPLACE — e.g. Grades 10–11',
+    title: 'Camp Counselor',
+    role: 'Counselor',
+    organization: 'Overnight Summer Camp',
+    grades: 'Grades 11–12',
     icon: 'users',
-    description: 'REPLACE — What you did and why it mattered, in one or two sentences.',
-    impact: 'REPLACE — A specific, honest result. Numbers help.',
-    skills: ['REPLACE', 'REPLACE'],
+    description: 'Supervised and mentored children ages 8–12, planning activities and resolving conflicts as a role model.',
+    impact: '40 hrs/week across 8 weeks each summer.',
+    skills: ['Leadership', 'Communication'],
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    title: 'Robotics Club',
+    role: 'Member',
+    grades: 'Grades 9–12',
+    icon: 'robot',
+    description: 'Collaborated on robotics projects and engineering challenges, building programming and hardware integration skills.',
+    impact: '1 hr/week, 30 weeks/year.',
+    skills: ['Collaboration', 'Robotics'],
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    title: 'LinkedIn Engineering Portfolio',
+    role: 'Creator',
+    grades: 'Grade 11',
+    icon: 'linkedin',
+    description: 'Built a professional LinkedIn profile documenting engineering projects, leadership, and volunteer service.',
+    skills: ['Professional Branding'],
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    title: 'GitHub Engineering Portfolio (Planned)',
+    role: 'Creator',
+    grades: 'Grade 11',
+    icon: 'github',
+    description: 'Publishing robotics and Arduino projects with documentation, code, photos, and engineering reflections.',
+    skills: ['Git', 'Documentation'],
+    image: '/images/project-placeholder.jpg',
   },
 ]
 
 /* ---------------------------------------------------------------------------
- * 7. VOLUNTEERING  —  rendered as a vertical timeline
- *    Optional: add `image: '/images/your-photo.jpg'` to any entry.
+ * 7. VOLUNTEERING  —  rendered as one 3-per-row grid, in this array order.
+ *    `category` ('stem' or 'community') shows as a small badge on the card.
+ *    `image` defaults to the shared placeholder — point it at a real photo
+ *    any time.
  * ------------------------------------------------------------------------ */
 export const volunteering = [
   {
-    title: 'Dog Rescue & Fostering',
-    role: 'Volunteer / Foster Helper',
-    organization: 'REPLACE — Rescue Organization',
-    dates: 'Grades 8–11',
-    hours: 'REPLACE — e.g. 120+ hours',
-    icon: 'dog',
-    description:
-      'Cared for rescue dogs at home and at the shelter — feeding, socializing, cleaning, and helping them get ready for adoption.',
-    impact: 'REPLACE — e.g. Helped care for 15+ foster dogs.',
-    // image: '/images/volunteering-dogs.jpg',
+    title: 'Young Scientist Program',
+    role: 'Volunteer',
+    organization: 'Local Library',
+    dates: 'Grade 9',
+    hours: '2 hrs/week, seasonal',
+    icon: 'flask',
+    category: 'stem',
+    description: 'Led science experiments and STEM activities for elementary students at the local library.',
+    impact: 'Skills: Public Speaking, Mentoring',
+    image: '/images/project-placeholder.jpg',
   },
   {
-    title: 'Adoption Events',
-    role: 'Event Volunteer',
-    organization: 'REPLACE — Rescue Organization',
-    dates: 'Grades 9–11',
-    hours: 'REPLACE — e.g. 40 hours',
-    icon: 'heart',
+    title: 'Math Homework Club',
+    role: 'Tutor',
+    dates: 'Grades 11–12',
+    hours: '1 hr/week, 25 weeks/year',
+    icon: 'chart',
+    category: 'stem',
+    description: 'Assisted classmates with mathematics homework and problem-solving.',
+    impact: 'Skills: Mentoring, Math',
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    title: 'Animal Rescue & Foster Care',
+    role: 'Volunteer / Caregiver',
+    dates: 'Grades 9–12',
+    hours: 'Daily fostering + 2 hrs/week shelter volunteering (seasonal)',
+    icon: 'dog',
+    category: 'community',
     description:
-      'Set up adoption events, introduced families to available dogs, and answered questions about fostering.',
-    impact: 'REPLACE — e.g. Supported 12 weekend adoption events.',
+      'Fostered rescue dogs at home — feeding, walking, and socializing — and volunteered at the shelter with adoption events and animal care.',
+    impact: 'Skills: Responsibility, Empathy, Compassion',
+    image: '/images/project-placeholder.jpg',
   },
   {
     title: 'Library Volunteering',
@@ -183,51 +222,55 @@ export const volunteering = [
     dates: 'Grades 9–11',
     hours: 'REPLACE — e.g. 60 hours',
     icon: 'book',
+    category: 'community',
     description:
       'Shelved and organized materials, helped run youth programs, and assisted visitors at the desk.',
     impact: 'REPLACE — Add a specific contribution.',
+    image: '/images/project-placeholder.jpg',
   },
   {
-    title: 'Young Scientist Program',
-    role: 'Student Volunteer',
-    organization: 'REPLACE — Hosting Organization',
-    dates: 'Grades 9–10',
-    hours: 'REPLACE — e.g. 30 hours',
-    icon: 'flask',
-    description:
-      'Ran hands-on science stations so younger students could try experiments themselves.',
-    impact: 'REPLACE — Add a specific contribution.',
-  },
-  {
-    title: 'Book Buddy',
-    role: 'Reading Partner',
-    organization: 'REPLACE — School or Library Program',
-    dates: 'REPLACE — Grades',
-    hours: 'REPLACE — Hours',
+    title: 'Book Buddy Program',
+    role: 'Mentor',
+    dates: 'Grade 9',
+    hours: '2 hrs/week, seasonal',
     icon: 'bookOpen',
-    description:
-      'Read one-on-one with younger students each week to help build their reading confidence.',
-    impact: 'REPLACE — Add a specific contribution.',
+    category: 'community',
+    description: 'Encouraged reading and literacy by mentoring younger students during summer reading activities.',
+    impact: 'Skills: Mentoring, Communication',
+    image: '/images/project-placeholder.jpg',
   },
   {
     title: 'Soup Kitchen',
-    role: 'Kitchen & Serving Volunteer',
-    organization: 'REPLACE — Community Organization',
-    dates: 'REPLACE — Grades',
-    hours: 'REPLACE — Hours',
+    role: 'Volunteer',
+    dates: 'Grades 9–12',
+    hours: '3 hrs/week, seasonal',
     icon: 'utensils',
-    description: 'Prepared and served meals and helped with cleanup during community meal service.',
-    impact: 'REPLACE — Add a specific contribution.',
+    category: 'community',
+    description: 'Prepared meals, cleaned facilities, maintained the community garden, and supported food distribution.',
+    impact: 'Skills: Service, Teamwork',
+    image: '/images/project-placeholder.jpg',
   },
   {
-    title: 'Art & Craft Teaching',
-    role: 'Activity Helper',
-    organization: 'REPLACE — Community Center / Program',
-    dates: 'REPLACE — Grades',
-    hours: 'REPLACE — Hours',
+    title: 'Food Bank / Power of Peace',
+    role: 'Volunteer',
+    dates: 'Grades 9–12',
+    hours: '3 hrs/week, seasonal',
+    icon: 'hands',
+    category: 'community',
+    description: 'Sorted, packed, and distributed food to families in need.',
+    impact: 'Skills: Community Engagement',
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    title: 'Art & Craft Instructor',
+    role: 'Instructor',
+    dates: 'Grade 9',
+    hours: '2 hrs/week, seasonal',
     icon: 'palette',
-    description: 'Led small art and craft activities for younger children and helped them finish their projects.',
-    impact: 'REPLACE — Add a specific contribution.',
+    category: 'community',
+    description: 'Planned and taught arts and crafts activities for younger children.',
+    impact: 'Skills: Creativity, Teaching',
+    image: '/images/project-placeholder.jpg',
   },
 ]
 
@@ -237,16 +280,31 @@ export const volunteering = [
 export const athletics = [
   {
     sport: 'Soccer',
-    team: 'JV Soccer — High School Team',
-    years: 'REPLACE — e.g. Grades 9–10',
-    position: 'REPLACE — e.g. Midfielder',
+    team: 'Varsity Soccer — High School Team',
+    years: 'Grades 11–12',
     icon: 'soccer',
-    accomplishments: [
-      'REPLACE — e.g. Full season starter',
-      'REPLACE — e.g. Team record or playoff appearance',
-    ],
+    accomplishments: ['10 hrs/week, 16 weeks/year season commitment'],
     learned:
-      'Playing on a team taught me to show up consistently, communicate under pressure, and keep working after a loss.',
+      'Competed at the varsity level while balancing rigorous academics and extracurricular commitments.',
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    sport: 'Soccer',
+    team: 'Travel Soccer — Club Team',
+    years: 'Grades 9–12',
+    icon: 'soccer',
+    accomplishments: ['8 hrs/week, 35 weeks/year — year-round commitment'],
+    learned: 'Competed in regional tournaments that required year-round dedication and teamwork.',
+    image: '/images/project-placeholder.jpg',
+  },
+  {
+    sport: 'Lacrosse',
+    team: 'Varsity Lacrosse — High School Team',
+    years: 'Grade 11',
+    icon: 'bolt',
+    accomplishments: ['10 hrs/week, 14 weeks/year season'],
+    learned: 'Competed in varsity lacrosse while balancing academics and service commitments.',
+    image: '/images/project-placeholder.jpg',
   },
 ]
 
@@ -257,29 +315,29 @@ export const awards = [
   {
     name: 'Presidential Volunteer Service Award — Gold',
     organization: 'AmeriCorps / President’s Council on Service and Civic Participation',
-    year: 'REPLACE — Year',
+    year: 'Grades 11–12',
     icon: 'trophy',
     tier: 'gold',
-    description:
-      'Awarded for completing the gold-level threshold of verified community service hours in a single year.',
+    description: 'Part of ~500 hours of community service earning national recognition for outstanding volunteer work.',
+    image: '/images/project-placeholder.jpg',
   },
   {
     name: 'Presidential Volunteer Service Award — Silver',
     organization: 'AmeriCorps / President’s Council on Service and Civic Participation',
-    year: 'REPLACE — Year',
+    year: 'Grades 11–12',
     icon: 'medal',
     tier: 'silver',
-    description:
-      'Awarded for completing the silver-level threshold of verified community service hours in a single year.',
+    description: 'Part of ~500 hours of community service earning national recognition for outstanding volunteer work.',
+    image: '/images/project-placeholder.jpg',
   },
   {
     name: 'Three-Time Presidential Volunteer Service Award Recipient',
     organization: 'AmeriCorps / President’s Council on Service and Civic Participation',
-    year: 'REPLACE — Years',
+    year: 'Grades 11–12',
     icon: 'award',
     tier: 'repeat',
-    description:
-      'Recognized in three separate years, reflecting service that continued across multiple grade levels.',
+    description: 'Recognized nationally for outstanding community service through hundreds of volunteer hours.',
+    image: '/images/project-placeholder.jpg',
   },
 ]
 
@@ -335,17 +393,22 @@ export const projects = [
     demo: '',
   },
   {
+    title: 'UConn Robotics Summer Academy',
+    image: '/images/project-placeholder.jpg',
+    imageAlt: 'Raspberry Pi-powered autonomous robot built at a summer robotics academy',
+    description:
+      'Designed, built, and programmed a Raspberry Pi-powered autonomous robot with sensors and embedded electronics as a team member.',
+    tech: ['Raspberry Pi', 'Python', 'Sensors', 'Embedded Systems'],
+    github: '',
+    demo: '',
+  },
+  {
     title: 'BattleBots / Robotics Experience',
     image: '/images/project-placeholder.jpg',
     imageAlt: 'Competition robot built for BattleBot-style engineering activities',
     description:
-      'Designed and experimented with robotics through competitive BattleBot-style engineering activities.',
-    tech: ['Mechanical Design', 'Motors', 'Iterative Testing'],
-    built:
-      'REPLACE — Describe the robot: drive system, weapon or mechanism, materials, and how the team divided the work.',
-    challenge:
-      'REPLACE — e.g. The first frame kept breaking on impact, so the design was reinforced between matches.',
-    learned: 'REPLACE — What competition taught you about design tradeoffs and working under time pressure.',
+      'Built and programmed a combat robot — motors, electronics, and 3D-printed parts — at a Carnegie Mellon BattleBots camp, then competed in the tournament.',
+    tech: ['Motors', 'Electronics', 'Programmable Controllers', '3D Printing'],
     github: '',
     demo: '',
   },
@@ -354,14 +417,8 @@ export const projects = [
     image: '/images/project-placeholder.jpg',
     imageAlt: 'Breadboard electronics projects including LEDs and a binary counter',
     description:
-      'A set of smaller circuits I built to learn the fundamentals: a binary counter, a dimmable LED, and RGB color mixing.',
+      'Built a binary counter, dimmable LED circuit, and RGB color-mixing controller to learn Arduino fundamentals.',
     tech: ['Arduino', 'Breadboarding', 'C/C++', 'Circuits'],
-    built:
-      'REPLACE — Built each circuit from scratch on a breadboard and wrote the sketch that drives it.',
-    challenge:
-      'REPLACE — e.g. Understanding why the LED flickered led to learning about PWM and resistor values.',
-    learned:
-      'REPLACE — How these small builds became the building blocks for the bigger robotics projects.',
     github: 'https://github.com/ayaanpanjani5668/REPLACE-REPO-NAME',
     demo: '',
   },

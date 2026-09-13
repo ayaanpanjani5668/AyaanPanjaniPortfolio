@@ -18,43 +18,62 @@ export default function Athletics() {
         {athletics.map((sport, index) => (
           <Reveal key={sport.team} delay={index * 80}>
             <article className="sport-card">
-              <Icon name={sport.icon || 'soccer'} className="sport-card__watermark" />
-
-              <header className="sport-card__header">
-                <h3 className="sport-card__title">{sport.sport}</h3>
-                <p className="sport-card__team">{sport.team}</p>
-              </header>
-
-              <dl className="sport-card__stats">
-                <div>
-                  <dt>Years</dt>
-                  <dd>{sport.years}</dd>
+              {sport.image ? (
+                <div className="sport-card__media">
+                  <img
+                    src={sport.image}
+                    alt={sport.imageAlt || `${sport.team} photo`}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
-                <div>
-                  <dt>Position</dt>
-                  <dd>{sport.position}</dd>
-                </div>
-              </dl>
+              ) : (
+                <Icon name={sport.icon || 'soccer'} className="sport-card__watermark" />
+              )}
 
-              {sport.accomplishments?.length ? (
-                <div className="sport-card__block">
-                  <h4>Accomplishments</h4>
-                  <ul className="checklist">
-                    {sport.accomplishments.map((item) => (
-                      <li key={item}>
-                        <Icon name="check" /> {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
+              <div className="sport-card__body">
+                <header className="sport-card__header">
+                  <h3 className="sport-card__title">{sport.sport}</h3>
+                  <p className="sport-card__team">{sport.team}</p>
+                </header>
 
-              {sport.learned ? (
-                <div className="sport-card__block">
-                  <h4>What I learned</h4>
-                  <p>{sport.learned}</p>
-                </div>
-              ) : null}
+                {(sport.years || sport.position) && (
+                  <dl className="sport-card__stats">
+                    {sport.years ? (
+                      <div>
+                        <dt>Years</dt>
+                        <dd>{sport.years}</dd>
+                      </div>
+                    ) : null}
+                    {sport.position ? (
+                      <div>
+                        <dt>Position</dt>
+                        <dd>{sport.position}</dd>
+                      </div>
+                    ) : null}
+                  </dl>
+                )}
+
+                {sport.accomplishments?.length ? (
+                  <div className="sport-card__block">
+                    <h4>Accomplishments</h4>
+                    <ul className="checklist">
+                      {sport.accomplishments.map((item) => (
+                        <li key={item}>
+                          <Icon name="check" /> {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {sport.learned ? (
+                  <div className="sport-card__block">
+                    <h4>What I learned</h4>
+                    <p>{sport.learned}</p>
+                  </div>
+                ) : null}
+              </div>
             </article>
           </Reveal>
         ))}
