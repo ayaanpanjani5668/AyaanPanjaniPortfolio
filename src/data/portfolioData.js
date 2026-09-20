@@ -30,7 +30,7 @@ export const links = {
  * 2. HERO / IDENTITY
  * ------------------------------------------------------------------------ */
 export const profile = {
-  name: 'Ayaan Panjnai',
+  name: 'Ayaan Panjani',
   // Small pill shown above the name in the hero
   status: 'High school student · Class of 2027',
   headline: 'Future Engineer | Electronics, Robotics & Technology Enthusiast | Student Leader',
@@ -39,7 +39,7 @@ export const profile = {
   // Drop your own photo at public/images/ayaan-profile.jpg (keep the same name
   // and nothing else needs to change).
   photo: '/images/ayaan-profile.jpg',
-  photoAlt: 'Portrait of Ayaan Panjnai',
+  photoAlt: 'Portrait of Ayaan Panjani',
   // Small caption shown under the portrait frame
   photoCaption: 'Class of 2027 · Engineering',
 }
@@ -97,7 +97,7 @@ export const academics = {
   coursework: [
     'Engineering Electives — Architecture, Vehicle Design, Transportation Systems, Woodworking, Alternative Energy',
     'Steadily increasing rigor — Precalculus to Honors Calculus and AP Physics',
-    'REPLACE — Chemistry',
+    'Chemistry',
   ],
   honors: [
     'AP Physics',
@@ -141,7 +141,8 @@ export const leadership = [
     description: 'Supervised and mentored children ages 8–12, planning activities and resolving conflicts as a role model.',
     impact: '40 hrs/week across 8 weeks each summer.',
     skills: ['Leadership', 'Communication'],
-    image: '/images/project-placeholder.jpg',
+    image: '/images/camp-counselor.jpg',
+    imageAlt: 'Camp counselor leading a group activity with campers seated on the floor',
   },
   {
     title: 'Robotics Club',
@@ -414,8 +415,8 @@ export const projects = [
   },
   {
     title: 'Arduino Electronics Projects',
-    image: '/images/project-placeholder.jpg',
-    imageAlt: 'Breadboard electronics projects including LEDs and a binary counter',
+    image: '/images/arduino-binary-counter.png',
+    imageAlt: 'Breadboard LED binary counter wired to an Arduino Uno',
     description:
       'Built a binary counter, dimmable LED circuit, and RGB color-mixing controller to learn Arduino fundamentals.',
     tech: ['Arduino', 'Breadboarding', 'C/C++', 'Circuits'],

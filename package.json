@@ -1,9 +1,9 @@
 {
-  "name": "ayaan-panjnai-portfolio",
+  "name": "ayaan-panjani-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "College application portfolio for Ayaan Panjnai - engineering, robotics, leadership, volunteering, athletics, and awards.",
+  "description": "College application portfolio for Ayaan Panjani - engineering, robotics, leadership, volunteering, athletics, and awards.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

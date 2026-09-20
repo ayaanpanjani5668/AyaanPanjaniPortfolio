@@ -1,4 +1,4 @@
-# Ayaan Panjnai — Engineering & Robotics Portfolio
+# Ayaan Panjani — Engineering & Robotics Portfolio
 
 A personal portfolio website built for college applications (Common App). It highlights
 academics, leadership, volunteering, athletics, awards, and hands-on engineering/robotics
