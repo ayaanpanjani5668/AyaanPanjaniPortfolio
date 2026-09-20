@@ -366,8 +366,8 @@ export const projects = [
   },
   {
     title: 'Line Following Robot',
-    image: '/images/project-placeholder.jpg',
-    imageAlt: 'Line following robot with infrared sensors',
+    image: '/images/line-following-robot.png',
+    imageAlt: 'Two line-following robots navigating a taped track between corrugated tubes',
     description:
       'A small robot that uses infrared sensors to read a track and steer itself along the line.',
     tech: ['Arduino', 'IR Sensors', 'Motors'],
