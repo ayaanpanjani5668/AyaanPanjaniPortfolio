@@ -191,6 +191,8 @@ export const volunteering = [
     category: 'stem',
     description: 'Led science experiments and STEM activities for elementary students at the local library.',
     impact: 'Skills: Public Speaking, Mentoring',
+    image: '/images/young-scientist-program.jpg',
+    imageAlt: 'Ayaan leading a hands-on chemistry experiment with elementary students at the STEM Buddy Program',
     image: '/images/project-placeholder.jpg',
   },
   {
@@ -246,12 +248,15 @@ export const volunteering = [
   {
     title: 'Soup Kitchen',
     role: 'Volunteer',
+    organization: 'Healing Meals Soup Kitchen',
     dates: 'Grades 9–12',
     hours: '3 hrs/week, seasonal',
     icon: 'utensils',
     category: 'community',
     description: 'Prepared meals, cleaned facilities, maintained the community garden, and supported food distribution.',
     impact: 'Skills: Service, Teamwork',
+    image: '/images/soup-kitchen.jpg',
+    imageAlt: 'Ayaan washing vegetables at the Healing Meals Soup Kitchen',
     image: '/images/project-placeholder.jpg',
   },
   {
