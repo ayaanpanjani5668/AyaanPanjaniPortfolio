@@ -311,7 +311,8 @@ export const athletics = [
     accomplishments: ['10 hrs/week, 16 weeks/year season commitment'],
     learned:
       'Competed at the varsity level while balancing rigorous academics and extracurricular commitments.',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/varsity-soccer.jpg',
+    imageAlt: 'Ayaan on the field during a varsity soccer match',
   },
   {
     sport: 'Soccer',
@@ -320,7 +321,8 @@ export const athletics = [
     icon: 'soccer',
     accomplishments: ['8 hrs/week, 35 weeks/year — year-round commitment'],
     learned: 'Competed in regional tournaments that required year-round dedication and teamwork.',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/travel-soccer.jpg',
+    imageAlt: 'Travel soccer club team photo at the goal net',
   },
   {
     sport: 'Lacrosse',
@@ -329,7 +331,8 @@ export const athletics = [
     icon: 'bolt',
     accomplishments: ['10 hrs/week, 14 weeks/year season'],
     learned: 'Competed in varsity lacrosse while balancing academics and service commitments.',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/varsity-lacrosse.jpg',
+    imageAlt: 'Varsity lacrosse team huddled in front of the Canton scoreboard',
   },
 ]
 
