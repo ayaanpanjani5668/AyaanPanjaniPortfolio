@@ -407,7 +407,7 @@ export const projects = [
   },
   {
     title: 'Smart Car Robot',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/smart-car-robot.jpg',
     imageAlt: 'Arduino UNO-based robotic car with servo steering and sensors',
     description:
       'Built and programmed an Arduino UNO–based robotic car, integrating servo steering, ultrasonic sensors, line-tracking sensors, motors, and electronic circuits. Programmed multiple driving functions including obstacle avoidance, line tracking, Bluetooth control, and Wi-Fi/IoT control, gaining hands-on experience with robotics, electronics, sensors, actuators, and Arduino coding.',
