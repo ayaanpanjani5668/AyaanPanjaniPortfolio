@@ -280,12 +280,13 @@
 
 .activity-card__media {
   position: relative;
+  background: var(--surface-tint);
 }
 
 .activity-card__media img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
 }
 
 .activity-card__category {
@@ -405,10 +406,14 @@
   box-shadow: var(--shadow-md);
 }
 
+.sport-card__media {
+  background: var(--surface-tint);
+}
+
 .sport-card__media img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
   border-bottom: 1px solid var(--border);
 }
 
@@ -621,8 +626,8 @@
 
 .project-card__media img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
   transition: transform 0.4s ease;
 }
 
