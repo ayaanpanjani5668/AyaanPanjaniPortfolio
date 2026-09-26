@@ -559,6 +559,16 @@
   color: var(--teal);
 }
 
+.award-card--bronze .award-card__icon {
+  background: #f5e2d3;
+  color: #9a5b2c;
+}
+
+.award-card--community .award-card__icon {
+  background: #e3f3e6;
+  color: #2f7a3d;
+}
+
 .award-card__name {
   font-size: 1.02rem;
   margin-bottom: 0.3rem;

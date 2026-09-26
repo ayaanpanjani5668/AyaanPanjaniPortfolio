@@ -207,6 +207,7 @@ export const volunteering = [
   {
     title: 'Animal Rescue & Foster Care',
     role: 'Volunteer / Caregiver',
+    organization: 'Dog Star Rescue',
     dates: 'Grades 9–12',
     hours: 'Daily fostering + 2 hrs/week shelter volunteering (seasonal)',
     icon: 'dog',
@@ -214,7 +215,8 @@ export const volunteering = [
     description:
       'Fostered rescue dogs at home — feeding, walking, and socializing — and volunteered at the shelter with adoption events and animal care.',
     impact: 'Skills: Responsibility, Empathy, Compassion',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/dog-star-rescue.jpg',
+    imageAlt: 'Rescue dog wearing a Dog Star Rescue bandana at an adoption event',
   },
   {
     title: 'Library Volunteering',
@@ -252,7 +254,7 @@ export const volunteering = [
     image: '/images/project-placeholder.jpg',
   },
   {
-    title: 'Food Bank / Power of Peace',
+    title: 'Food Bank',
     role: 'Volunteer',
     dates: 'Grades 9–12',
     hours: '3 hrs/week, seasonal',
@@ -260,7 +262,20 @@ export const volunteering = [
     category: 'community',
     description: 'Sorted, packed, and distributed food to families in need.',
     impact: 'Skills: Community Engagement',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/food-bank.jpg',
+    imageAlt: 'Ayaan sorting canned goods at a food bank',
+  },
+  {
+    title: 'Power of Peace',
+    role: 'Volunteer',
+    dates: 'Grades 9–12',
+    hours: '3 hrs/week, seasonal',
+    icon: 'hands',
+    category: 'community',
+    description: 'Volunteered at community outreach and cultural events supporting the Power of Peace program.',
+    impact: 'Skills: Community Engagement, Teamwork',
+    image: '/images/power-of-peace.jpg',
+    imageAlt: 'Ayaan and fellow volunteers holding certificates at a Power of Peace community event',
   },
   {
     title: 'Art & Craft Instructor',
@@ -323,13 +338,14 @@ export const awards = [
     image: '/images/project-placeholder.jpg',
   },
   {
-    name: 'Presidential Volunteer Service Award — Silver',
+    name: 'Presidential Volunteer Service Award — Bronze',
     organization: 'AmeriCorps / President’s Council on Service and Civic Participation',
-    year: 'Grades 11–12',
+    year: '2023',
     icon: 'medal',
-    tier: 'silver',
-    description: 'Part of ~500 hours of community service earning national recognition for outstanding volunteer work.',
-    image: '/images/project-placeholder.jpg',
+    tier: 'bronze',
+    description: 'Part of ~250+ hours of community service earning national recognition for outstanding volunteer work.',
+    image: '/images/award-bronze-2023.jpg',
+    imageAlt: 'Presidential Volunteer Service Award Bronze certificate awarded to Ayaan Panjani, 2023',
   },
   {
     name: 'Three-Time Presidential Volunteer Service Award Recipient',
@@ -339,6 +355,16 @@ export const awards = [
     tier: 'repeat',
     description: 'Recognized nationally for outstanding community service through hundreds of volunteer hours.',
     image: '/images/project-placeholder.jpg',
+  },
+  {
+    name: 'Community Service & Leadership — Camp Counselor',
+    organization: 'Hindu Heritage Summer Camp',
+    year: 'July 2025',
+    icon: 'users',
+    tier: 'community',
+    description: 'Recognized for 250 hours of community service and leadership as a Camp Counselor.',
+    image: '/images/award-camp-counselor-2025.jpg',
+    imageAlt: 'Certificate of Achievement from Hindu Heritage Summer Camp awarded to Ayaan Panjani for 250 community service hours as a counselor',
   },
 ]
 
@@ -382,14 +408,10 @@ export const projects = [
   {
     title: 'Smart Car Robot',
     image: '/images/project-placeholder.jpg',
-    imageAlt: 'Smart car robot with an ultrasonic distance sensor',
+    imageAlt: 'Arduino UNO-based robotic car with servo steering and sensors',
     description:
-      'An obstacle-aware robot car that uses an ultrasonic sensor to measure distance and change direction before it hits something.',
-    tech: ['Arduino', 'Ultrasonic Sensor', 'Motors'],
-    built:
-      'REPLACE — Built the driving base, added an ultrasonic sensor on a servo, and wrote the logic for scanning and choosing a clear path.',
-    challenge: 'REPLACE — Describe the hardest part of getting reliable distance readings.',
-    learned: 'REPLACE — What you learned about sensors and decision logic.',
+      'Built and programmed an Arduino UNO–based robotic car, integrating servo steering, ultrasonic sensors, line-tracking sensors, motors, and electronic circuits. Programmed multiple driving functions including obstacle avoidance, line tracking, Bluetooth control, and Wi-Fi/IoT control, gaining hands-on experience with robotics, electronics, sensors, actuators, and Arduino coding.',
+    tech: ['Arduino UNO', 'Servo Motor', 'Ultrasonic Sensor', 'Line-Tracking Sensors', 'Bluetooth', 'Wi-Fi/IoT'],
     github: 'https://github.com/ayaanpanjani5668/REPLACE-REPO-NAME',
     demo: '',
   },
@@ -415,7 +437,7 @@ export const projects = [
   },
   {
     title: 'Arduino Electronics Projects',
-    image: '/images/arduino-binary-counter.png',
+    image: '/images/arduino-binary-counter.jpg',
     imageAlt: 'Breadboard LED binary counter wired to an Arduino Uno',
     description:
       'Built a binary counter, dimmable LED circuit, and RGB color-mixing controller to learn Arduino fundamentals.',
