@@ -286,12 +286,15 @@ export const volunteering = [
   {
     title: 'Art & Craft Instructor',
     role: 'Instructor',
+    organization: 'Art & Craft Buddy Program',
     dates: 'Grade 9',
     hours: '2 hrs/week, seasonal',
     icon: 'palette',
     category: 'community',
     description: 'Planned and taught arts and crafts activities for younger children.',
     impact: 'Skills: Creativity, Teaching',
+    image: '/images/art-craft-instructor.jpg',
+    imageAlt: 'Ayaan helping young students with an arts and crafts project at the Art & Craft Buddy Program',
     image: '/images/project-placeholder.jpg',
   },
 ]
