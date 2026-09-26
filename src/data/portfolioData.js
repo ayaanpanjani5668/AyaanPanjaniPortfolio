@@ -240,7 +240,8 @@ export const volunteering = [
     category: 'community',
     description: 'Encouraged reading and literacy by mentoring younger students during summer reading activities.',
     impact: 'Skills: Mentoring, Communication',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/book-buddy-program.jpg',
+    imageAlt: 'Ayaan reading with three young students at a library Book Buddy Program table',
   },
   {
     title: 'Soup Kitchen',
