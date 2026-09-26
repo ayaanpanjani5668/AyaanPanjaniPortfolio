@@ -348,13 +348,14 @@ export const awards = [
     imageAlt: 'Presidential Volunteer Service Award Bronze certificate awarded to Ayaan Panjani, 2023',
   },
   {
-    name: 'Three-Time Presidential Volunteer Service Award Recipient',
+    name: 'Leadership and Community',
     organization: 'AmeriCorps / President’s Council on Service and Civic Participation',
     year: 'Grades 11–12',
     icon: 'award',
     tier: 'repeat',
-    description: 'Recognized nationally for outstanding community service through hundreds of volunteer hours.',
-    image: '/images/project-placeholder.jpg',
+    description: 'Led various community efforts, recognized nationally for outstanding service through hundreds of volunteer hours.',
+    image: '/images/power-of-peace.jpg',
+    imageAlt: 'Ayaan and fellow volunteers holding certificates at a community leadership event',
   },
   {
     name: 'Community Service & Leadership — Camp Counselor',
