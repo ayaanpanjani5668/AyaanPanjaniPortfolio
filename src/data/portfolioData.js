@@ -145,6 +145,16 @@ export const leadership = [
     imageAlt: 'Camp counselor leading a group activity with campers seated on the floor',
   },
   {
+    title: 'Toastmasters',
+    role: 'Member',
+    grades: 'Multiple Years',
+    icon: 'idea',
+    description: 'Participated in Toastmasters for multiple years, honing my listening, communication, and leadership skills.',
+    skills: ['Public Speaking', 'Active Listening', 'Leadership'],
+    image: '/images/toastmasters.jpg',
+    imageAlt: 'Ayaan speaking from the podium at a Toastmasters meeting',
+  },
+  {
     title: 'Robotics Club',
     role: 'Member',
     grades: 'Grades 9–12',
