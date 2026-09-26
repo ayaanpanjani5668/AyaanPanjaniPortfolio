@@ -426,12 +426,12 @@ export const projects = [
     demo: '',
   },
   {
-    title: 'BattleBots / Robotics Experience',
-    image: '/images/project-placeholder.jpg',
-    imageAlt: 'Competition robot built for BattleBot-style engineering activities',
+    title: 'BattleBot VEX Robotics',
+    image: '/images/battlebot-vex-robotics.jpg',
+    imageAlt: 'VEX competition robot with a claw arm on a BattleBots-branded arena field',
     description:
       'Built and programmed a combat robot — motors, electronics, and 3D-printed parts — at a Carnegie Mellon BattleBots camp, then competed in the tournament.',
-    tech: ['Motors', 'Electronics', 'Programmable Controllers', '3D Printing'],
+    tech: ['VEX Robotics', 'Motors', 'Electronics', 'Programmable Controllers', '3D Printing'],
     github: '',
     demo: '',
   },
