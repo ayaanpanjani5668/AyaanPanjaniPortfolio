@@ -65,8 +65,8 @@ export const highlights = [
   },
   {
     icon: 'medal',
-    title: '3× Presidential Volunteer Service Award',
-    text: 'Recognized three times for sustained hours of community service.',
+    title: '2× Presidential Award for Leadership and Community Service',
+    text: 'Recognized twice for sustained hours of community service.',
   },
 ]
 
@@ -212,7 +212,8 @@ export const volunteering = [
     category: 'stem',
     description: 'Assisted classmates with mathematics homework and problem-solving.',
     impact: 'Skills: Mentoring, Math',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/math-homework-club.jpg',
+    imageAlt: 'Ayaan helping classmates with calculus problems at a whiteboard in the Math Homework Club',
   },
   {
     title: 'Animal Rescue & Foster Care',
@@ -228,16 +229,16 @@ export const volunteering = [
     imageAlt: 'Rescue dog wearing a Dog Star Rescue bandana at an adoption event',
   },
   {
-    title: 'Library Volunteering',
-    role: 'Teen Volunteer',
-    organization: 'REPLACE — Public Library',
-    dates: 'Grades 9–11',
-    icon: 'book',
+    title: 'Community Garden for Food Bank',
+    role: 'Volunteer',
+    dates: 'Grades 9–12',
+    icon: 'seedling',
     category: 'community',
     description:
-      'Shelved and organized materials, helped run youth programs, and assisted visitors at the desk.',
-    impact: 'REPLACE — Add a specific contribution.',
-    image: '/images/project-placeholder.jpg',
+      'Planted and watered vegetables, removed weeds, and donated the produce to the local food pantry.',
+    impact: 'Skills: Responsibility, Sustainability',
+    image: '/images/community-garden-food-bank.jpg',
+    imageAlt: 'Ayaan watering vegetable plants in a community garden that supplies a local food pantry',
   },
   {
     title: 'Book Buddy Program',
