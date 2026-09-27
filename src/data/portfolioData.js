@@ -122,15 +122,14 @@ export const academics = {
  * ------------------------------------------------------------------------ */
 export const leadership = [
   {
-    title: 'Neighborhood Robotics Boot Camp',
-    role: 'Instructor',
-    organization: 'Neighborhood Program',
-    grades: 'Grade 12',
-    icon: 'chip',
-    description: 'Designed and taught a beginner robotics camp for neighborhood kids using Arduino and hands-on STEM activities.',
-    impact: '6-week camp.',
-    skills: ['Leadership', 'Teaching'],
-    image: '/images/project-placeholder.jpg',
+    title: 'Math Kangaroo',
+    role: 'Participant',
+    grades: 'Multiple Years',
+    icon: 'chart',
+    description: 'Participated in the Math Kangaroo exam for multiple years, building problem-solving skills under timed competition conditions.',
+    skills: ['Problem Solving', 'Mathematics'],
+    image: '/images/math-kangaroo-logo.png',
+    imageAlt: 'Math Kangaroo USA logo',
   },
   {
     title: 'Camp Counselor',
