@@ -164,6 +164,16 @@ export const leadership = [
     image: '/images/robotics-club.jpg',
     imageAlt: 'Ayaan and teammates assembling a VEX robot in the Robotics Club room',
   },
+  {
+    title: 'Math Homework Club',
+    role: 'Tutor',
+    grades: 'Grades 11–12',
+    icon: 'chart',
+    description: 'Assisted classmates with mathematics homework and problem-solving.',
+    skills: ['Mentoring', 'Math'],
+    image: '/images/math-homework-club.jpg',
+    imageAlt: 'Ayaan helping classmates with calculus problems at a whiteboard in the Math Homework Club',
+  },
 ]
 
 /* ---------------------------------------------------------------------------
@@ -184,17 +194,6 @@ export const volunteering = [
     impact: 'Skills: Public Speaking, Mentoring',
     image: '/images/young-scientist-program.jpg',
     imageAlt: 'Ayaan leading a hands-on chemistry experiment with elementary students at the STEM Buddy Program',
-  },
-  {
-    title: 'Math Homework Club',
-    role: 'Tutor',
-    dates: 'Grades 11–12',
-    icon: 'chart',
-    category: 'stem',
-    description: 'Assisted classmates with mathematics homework and problem-solving.',
-    impact: 'Skills: Mentoring, Math',
-    image: '/images/math-homework-club.jpg',
-    imageAlt: 'Ayaan helping classmates with calculus problems at a whiteboard in the Math Homework Club',
   },
   {
     title: 'Animal Rescue & Foster Care',
