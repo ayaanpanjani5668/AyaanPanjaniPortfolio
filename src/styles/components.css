@@ -578,6 +578,16 @@
   color: #2f7a3d;
 }
 
+.award-card--athletics .award-card__icon {
+  background: #e3edfa;
+  color: #2f5fa8;
+}
+
+.award-card--academic .award-card__icon {
+  background: #f1e9fa;
+  color: #6b3fa0;
+}
+
 .award-card__name {
   font-size: 1.02rem;
   margin-bottom: 0.3rem;
