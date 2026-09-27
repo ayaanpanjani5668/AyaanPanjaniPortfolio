@@ -164,24 +164,6 @@ export const leadership = [
     image: '/images/robotics-club.jpg',
     imageAlt: 'Ayaan and teammates assembling a VEX robot in the Robotics Club room',
   },
-  {
-    title: 'LinkedIn Engineering Portfolio',
-    role: 'Creator',
-    grades: 'Grade 11',
-    icon: 'linkedin',
-    description: 'Built a professional LinkedIn profile documenting engineering projects, leadership, and volunteer service.',
-    skills: ['Professional Branding'],
-    image: '/images/project-placeholder.jpg',
-  },
-  {
-    title: 'GitHub Engineering Portfolio (Planned)',
-    role: 'Creator',
-    grades: 'Grade 11',
-    icon: 'github',
-    description: 'Publishing robotics and Arduino projects with documentation, code, photos, and engineering reflections.',
-    skills: ['Git', 'Documentation'],
-    image: '/images/project-placeholder.jpg',
-  },
 ]
 
 /* ---------------------------------------------------------------------------
