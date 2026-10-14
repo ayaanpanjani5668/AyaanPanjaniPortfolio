@@ -341,6 +341,16 @@ export const awards = [
     imageAlt: 'Presidential Volunteer Service Award Bronze certificate awarded to Ayaan Panjani, 2023',
   },
   {
+    name: 'Arduino Junior Certification',
+    organization: 'Arduino Education',
+    year: '2026',
+    icon: 'chip',
+    tier: 'academic',
+    description: 'Certified by the Arduino Education Team on Programming & Electronics.',
+    image: '/images/award-arduino-junior-cert.jpg',
+    imageAlt: 'Arduino Junior Certification awarded to Ayaan Panjani for Programming & Electronics, 2026',
+  },
+  {
     name: 'Leadership and Community',
     organization: 'Power of Peace',
     year: '2025–2026',
@@ -379,16 +389,6 @@ export const awards = [
     description: 'Completed the UConn Pre-College Summer Robotics Engineering program.',
     image: '/images/award-uconn-robotics-cert.jpg',
     imageAlt: 'University of Connecticut certificate awarded to Ayaan Panjani for completing the Pre-College Summer Robotics Engineering program, 2025',
-  },
-  {
-    name: 'Arduino Junior Certification',
-    organization: 'Arduino Education',
-    year: '2026',
-    icon: 'chip',
-    tier: 'academic',
-    description: 'Certified by the Arduino Education Team on Programming & Electronics.',
-    image: '/images/award-arduino-junior-cert.jpg',
-    imageAlt: 'Arduino Junior Certification awarded to Ayaan Panjani for Programming & Electronics, 2026',
   },
 ]
 
