@@ -122,16 +122,6 @@ export const academics = {
  * ------------------------------------------------------------------------ */
 export const leadership = [
   {
-    title: 'Math Kangaroo',
-    role: 'Participant',
-    grades: 'Multiple Years',
-    icon: 'chart',
-    description: 'Participated in the Math Kangaroo exam for multiple years, building problem-solving skills under timed competition conditions.',
-    skills: ['Problem Solving', 'Mathematics'],
-    image: '/images/math-kangaroo-logo.png',
-    imageAlt: 'Math Kangaroo USA logo',
-  },
-  {
     title: 'Camp Counselor',
     role: 'Counselor',
     organization: 'Overnight Summer Camp',
@@ -183,6 +173,17 @@ export const leadership = [
  *    any time.
  * ------------------------------------------------------------------------ */
 export const volunteering = [
+  {
+    title: 'Math Kangaroo',
+    role: 'Participant',
+    dates: 'Multiple Years',
+    icon: 'chart',
+    category: 'stem',
+    description: 'Participated in the Math Kangaroo exam for multiple years, building problem-solving skills under timed competition conditions.',
+    impact: 'Skills: Problem Solving, Mathematics',
+    image: '/images/math-kangaroo-logo.png',
+    imageAlt: 'Math Kangaroo USA logo',
+  },
   {
     title: 'Young Scientist Program',
     role: 'Volunteer',
@@ -484,7 +485,7 @@ export const sections = {
     subtitle: 'Taking initiative, helping others, and contributing beyond the classroom.',
   },
   volunteering: {
-    title: 'Volunteering & Community Service',
+    title: 'Volunteering/STEM & Community Service',
     subtitle: 'Using my time and skills to make a positive difference in my community.',
   },
   athletics: {
@@ -512,7 +513,7 @@ export const navItems = [
   { id: 'home', label: 'Home' },
   { id: 'academics', label: 'Academics' },
   { id: 'leadership', label: 'Leadership' },
-  { id: 'volunteering', label: 'Volunteering' },
+  { id: 'volunteering', label: 'Volunteering/STEM' },
   { id: 'athletics', label: 'Athletics' },
   { id: 'awards', label: 'Awards' },
   { id: 'projects', label: 'Projects' },
