@@ -472,7 +472,7 @@ export const projects = [
   },
   {
     title: 'DC Motor Control Circuit',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/dc-motor-control.jpg',
     imageAlt: 'Transistor and diode circuit for controlling a DC motor',
     description:
       'Controlled a DC motor by building a transistor-and-diode driver circuit, including a flyback diode for protection.',
@@ -482,7 +482,7 @@ export const projects = [
   },
   {
     title: 'Ultrasonic Distance Sensor',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/ultrasonic-sensor.jpg',
     imageAlt: 'HC-SR04 ultrasonic sensor wired to an Arduino Nano',
     description:
       'Connected an HC-SR04 ultrasonic sensor to an Arduino Nano to measure distance.',
@@ -492,7 +492,7 @@ export const projects = [
   },
   {
     title: 'Remote-Controlled DC Motor',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/remote-dc-motor.jpg',
     imageAlt: 'Remote-controlled DC motor speed and direction project',
     description:
       'Developed a project to remotely control the speed and direction of a DC motor.',
@@ -502,7 +502,7 @@ export const projects = [
   },
   {
     title: '8-Bit Bit Flipper',
-    image: '/images/project-placeholder.jpg',
+    image: '/images/bit-flipper.jpg',
     imageAlt: '8-bit bit flipper circuit for binary and hex numbers',
     description:
       'Built a bit flipper that inverts each bit of an 8-bit binary or hex number — 1s become 0s and 0s become 1s.',
