@@ -470,6 +470,46 @@ export const projects = [
     github: 'https://github.com/ayaanpanjani5668/REPLACE-REPO-NAME',
     demo: '',
   },
+  {
+    title: 'DC Motor Control Circuit',
+    image: '/images/project-placeholder.jpg',
+    imageAlt: 'Transistor and diode circuit for controlling a DC motor',
+    description:
+      'Controlled a DC motor by building a transistor-and-diode driver circuit, including a flyback diode for protection.',
+    tech: ['Transistor', 'Diode', 'DC Motor', 'Electronics'],
+    github: '',
+    demo: '',
+  },
+  {
+    title: 'Ultrasonic Distance Sensor',
+    image: '/images/project-placeholder.jpg',
+    imageAlt: 'HC-SR04 ultrasonic sensor wired to an Arduino Nano',
+    description:
+      'Connected an HC-SR04 ultrasonic sensor to an Arduino Nano to measure distance.',
+    tech: ['Arduino Nano', 'HC-SR04', 'Ultrasonic Sensor'],
+    github: '',
+    demo: '',
+  },
+  {
+    title: 'Remote-Controlled DC Motor',
+    image: '/images/project-placeholder.jpg',
+    imageAlt: 'Remote-controlled DC motor speed and direction project',
+    description:
+      'Developed a project to remotely control the speed and direction of a DC motor.',
+    tech: ['Arduino', 'DC Motor', 'Motor Driver', 'Remote Control'],
+    github: '',
+    demo: '',
+  },
+  {
+    title: '8-Bit Bit Flipper',
+    image: '/images/project-placeholder.jpg',
+    imageAlt: '8-bit bit flipper circuit for binary and hex numbers',
+    description:
+      'Built a bit flipper that inverts each bit of an 8-bit binary or hex number — 1s become 0s and 0s become 1s.',
+    tech: ['Arduino', 'C/C++', 'Bitwise Logic'],
+    github: '',
+    demo: '',
+  },
 ]
 
 /* ---------------------------------------------------------------------------
